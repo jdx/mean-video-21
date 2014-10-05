@@ -1,9 +1,9 @@
 <form ng-submit='addPost(newPost)'>
-  <input ng-model='newPost'>
+  <input class='status' ng-model='newPost'>
   <input type='submit'>
 </form>
 
-<ul>
+<ul id='posts'>
   <li ng-repeat='post in posts'>
   <pre>{{post | json}}</pre>
   </li>

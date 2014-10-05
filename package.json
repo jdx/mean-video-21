@@ -18,11 +18,13 @@
   "homepage": "https://github.com/dickeyxxx/mean-video-4",
   "devDependencies": {
     "chai": "^1.9.2",
+    "chai-as-promised": "^4.1.1",
     "karma": "^0.12.24",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.5",
     "karma-mocha": "^0.1.9",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "protractor": "^1.3.1"
   },
   "dependencies": {
     "body-parser": "^1.9.0",
