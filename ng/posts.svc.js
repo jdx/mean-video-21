@@ -6,4 +6,7 @@ angular.module('myapp')
       return response.data
     })
   }
+  this.create = function (post) {
+    return $http.post('/api/posts', post)
+  }
 })
