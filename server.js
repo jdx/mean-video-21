@@ -8,6 +8,8 @@ app.use(morgan('dev'))
 app.use('/templates', express.static('templates'))
 app.use(express.static('public'))
 
+app.use('/api', require('./api'))
+
 app.get('*', function (req, res) {
   res.render('index.html.ejs')
 })
