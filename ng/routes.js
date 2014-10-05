@@ -4,4 +4,5 @@ angular.module('myapp')
   $routeProvider
   .when('/', {templateUrl: '/templates/home.html'})
   .when('/github', {templateUrl: '/templates/github.html', controller: 'GithubCtrl'})
+  .when('/posts', {templateUrl: '/templates/posts.html', controller: 'PostsCtrl'})
 })
