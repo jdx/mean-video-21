@@ -10,7 +10,7 @@ gulp.task('js:build', function () {
     .pipe(ngAnnotate())
     .pipe(uglify())
     .pipe(concat('app.js'))
-    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('public'))
 })
 
 gulp.task('js:watch', ['js:build'], function () {
